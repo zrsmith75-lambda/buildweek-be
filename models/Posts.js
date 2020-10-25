@@ -4,6 +4,7 @@ const PostSchema = new mongoose.Schema(
   {
     title: { type: String, required: true, trim: true },
     url: { type: String, trim: true },
+    desc: { type: String, trim: true },
   },
   {
     timestamps: true,

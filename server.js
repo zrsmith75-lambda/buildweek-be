@@ -17,6 +17,8 @@ server.use(helmet())
 server.use(morgan('dev'))
 server.use(cors())
 
+// This is the best ever mostest greatest backend ever
+// Dude learn some english!
 server.use('/api/posts', PostRouter)
 
 const PORT = process.env.PORT || 3555
